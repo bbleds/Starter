@@ -1,121 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>
       The Pentecostals of Murfreesboro
     </title>
+    <meta charset="utf-8" />
   </head>
 
-<!-- Title Section -->
-  <div id="Title">
-    <a href="http://tpomchurch.com/tpom">Top Left Image Holder</a>
-      WELCOME
-    </h1>
-  </div>
+  <!-- Typically, you will want the entire content inside of a <body></body> tag -->
+  <body>
+    <div id="wrapper">
+      <!-- Title Section -->
+      <!-- capital ids are not wrong but convention is to use lower case. NBD but I made these lower case for now -->
+      <div id="title">
+        <a href="http://tpomchurch.com/tpom">Top Left Image Holder</a>
+        <h1>WELCOME</h1>
+        <nav>
+          <ul>
+            <li>About</li>
+            <li>Engage</li>
+            <li>Media</li>
+            <li>Give</li>
+          </ul>
+        </nav>
+      </div>
 
-  <!-- Mision Statement Section -->
-  <div id="Mission"
-    <h3>
-      WE ARE AN APOSTOLIC CHURCH<br>GROWING APOSTOLIC FAMILIES.
-    </h3>
-    <p>
-      The Pentecostals of Murfreesboro have been a part of the fabric of
-      this community since 1957. Since<br>then, our goal has been reaching
-      this city with the amazing message of Jesus and serving people in<br>need.
-      <br> <br>
-      Use the links below to access our online giving portal, download our
-      app, contact our pastoral staff<br>and find directions to our campus located
-      in beautiful Middle Tennessee.
-    </p>
-  </div>
+      <!-- Mision Statement Section -->
+      <div id="mission">
+        <!--
+          <br> tag is fine in the h3 if you always want it the text to break to the next line after the word "Church", just make sure you close it....
+           <br> is special case but if we are being strict, anything that just requires one tag should be "self closing" like this - <br/>
+           "<br>" instead of "<br/>" wont break it, but if you did "<img>" instead of "<img/>" it would
+         -->
+        <h3>
+          WE ARE AN APOSTOLIC CHURCH<br>GROWING APOSTOLIC FAMILIES.
+        </h3>
+        <!-- You actually dont need <br> tags unless you want the text to always break at a certain place. In the case of a paragraph tag, we usually dont want that. -->
+        <p>
+          The Pentecostals of Murfreesboro have been a part of the fabric of this community since 1957. Sincethen, our goal has been reaching this city with the amazing message of
+          Jesus and serving people in need. Use the links below to access our online giving portal, download our app, contact our pastoral staffand find directions to our campus
+          located in beautiful Middle Tennessee.
+        </p>
+      </div>
 
-  <!-- Service Section -->
-  <div id="Service">
-    <h3>
-      SERVICE TIMES
-    </h3>
-    <p>
-      Sunday at 11:30am<br>Wednesday at 7pm
-    </p>
-  </div>
+      <!-- Service Section -->
+      <div id="service">
+        <h3>
+          SERVICE TIMES
+        </h3>
+        <p>
+          Sunday at 11:30am<br>Wednesday at 7pm
+        </p>
+      </div>
 
-  <!-- Recent Section -->
-  <div id="Recent">
-    <h3>
-      Most Recent Service
-    </h3>
-  </div>
+      <!-- Recent Section -->
+      <div id="recent">
+        <h3>
+          Most Recent Service
+        </h3>
+      </div>
 
-  <!-- Capital Stewardship Section -->
-  <div id="Stewardship">
-    <a href="http://tpomchurch.com/give/capital-stewardship">LEARN MORE</a>
-  </div>
+      <!-- Capital Stewardship Section -->
+      <div id="stewardship">
+        <a href="http://tpomchurch.com/give/capital-stewardship">LEARN MORE</a>
+      </div>
 
-  <!-- Vision Section -->
-  <div id="Vision"
-    <h3>
-      OUR VISION
-    </h3>
-    <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/71fa7140-f06e-48eb-902f-381155d2b05e.jpg">
-    <p>
-      Our vision is to be a church of spirit-filled people, standing ready
-      to serve our community and<br>lead others to know the fullness of the gospel
-      of Jesus Christ. We want to guide others on their<br>journey to meeting God,
-      whatever path of life they may be following. We want to continue<br>planting
-      churches around our town and the Middle Tennessee area and see our
-      communities<br>transformed by the power of Christ and the shared love of Him
-      and His church.
-    </p>
-    <a href="http://tpomchurch.com/about/our-vision">MORE ABOUT OUR VISION</a>
-  </div>
+      <!-- Vision Section -->
+      <div id="vision">
+        <h3>
+          OUR VISION
+        </h3>
+        <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/71fa7140-f06e-48eb-902f-381155d2b05e.jpg" />
+        <p>
+          Our vision is to be a church of spirit-filled people, standing ready
+          to serve our community and<br>lead others to know the fullness of the gospel
+          of Jesus Christ. We want to guide others on their<br>journey to meeting God,
+          whatever path of life they may be following. We want to continue<br>planting
+          churches around our town and the Middle Tennessee area and see our
+          communities<br>transformed by the power of Christ and the shared love of Him
+          and His church.
+        </p>
+        <a href="http://tpomchurch.com/about/our-vision">MORE ABOUT OUR VISION</a>
+      </div>
 
-  <!-- Kingdom Section -->
-  <div id="Kingdom"
-    <h3>
-      HIS KINGDOM
-    </h3>
-    <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/e0d5c9c1-b009-4134-8ccb-d571b5594dea.jpg">
-    <br>
-    <p>
-      At TPOM, we believe whole-heartedly that every person has a responsibility
-      to the Kingdom of<br>God. That duty manifests itself differently for
-      everyone and that's the beautiful thing about<br>ministry: it's all unique
-      and it's all important! Whether helping with our children's classes or<br>
-      singing with a worship team in our main services, TPOM believes in the
-      power of individuals<br>equipped in ministry and we love to see the fruit
-      of this dedication.
-    </p>
-  </div>
+      <!-- Kingdom Section -->
+      <div id="kingdom">
+        <h3>
+          HIS KINGDOM
+        </h3>
+        <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/e0d5c9c1-b009-4134-8ccb-d571b5594dea.jpg" />
+        <br>
+        <p>
+          At TPOM, we believe whole-heartedly that every person has a responsibility
+          to the Kingdom of<br>God. That duty manifests itself differently for
+          everyone and that's the beautiful thing about<br>ministry: it's all unique
+          and it's all important! Whether helping with our children's classes or<br>
+          singing with a worship team in our main services, TPOM believes in the
+          power of individuals<br>equipped in ministry and we love to see the fruit
+          of this dedication.
+        </p>
+      </div>
 
-  <!-- Connection Section -->
-  <div id="Connection"
-    <h3>
-      YOUR CONNECTION
-    </h3>
-    <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/aa87e9cf-e6a4-4637-9915-a85a5abde772.jpg">
-    <p>
-      Have you ever wanted to be a part of something bigger than yourself? At
-      TPOM, you have the<br>ability to plug in and truly make a difference. It is
-      more than just sitting on a pew, it is about<br>making a connection.
-      Experience a life made new through the power and redeeming love of<br>Jesus
-      Christ. Come grow with us and create a lasting impact on the world around you.
-    </p>
-    <a href="http://tpomchurch.com/about/beliefs">APOSTOLIC BELIEFS</a>
-  </div>
+      <!-- Connection Section -->
+      <div id="connection">
+        <h3>
+          YOUR CONNECTION
+        </h3>
+        <img src="https://s3.amazonaws.com/media.cloversites.com/71/71b4e022-d219-4731-bdeb-1fedf625fb2f/site-images/aa87e9cf-e6a4-4637-9915-a85a5abde772.jpg" />
+        <p>
+          Have you ever wanted to be a part of something bigger than yourself? At
+          TPOM, you have the<br>ability to plug in and truly make a difference. It is
+          more than just sitting on a pew, it is about<br>making a connection.
+          Experience a life made new through the power and redeeming love of<br>Jesus
+          Christ. Come grow with us and create a lasting impact on the world around you.
+        </p>
+        <a href="http://tpomchurch.com/about/beliefs">APOSTOLIC BELIEFS</a>
+      </div>
 
-  <!-- Contact Section -->
-  <div id="Contact">
-    <a href="http://get.theapp.co/e36e">App Image</a>
-    <a href="mailto:info@tpomchurch.com">Mail Image</a>
-    <a href="http://www.facebook.com/tpomchurch">FaceBook Image</a>
-    <a href="http://www.instagram.com/tpomchurch">Instagram Image</a>
-    <a href="https://www.google.com/maps/place/The+Pentecostals+of+Murfreesboro/@35.869838,-86.357356,17z/data=!4m2!3m1!1s0x0:0x48222acf48a037cb?hl=en">Google Map Image</a>
-    <p>
-      The Pentecostals of Murfreesboro -
-      1800 New Lascassas Pk - Murfreesboro, TN 37130<br>
-      <a href="mailto:info@tpomchurch.com">Info@tpomchurch.com</a> -
-      (615) 893-5906 -
-      <a href="http://tpomchurch.com/engage/spanish">Hablamos Espa&#241;ol</a>
-    </p>
-  </div>
+      <!-- Contact Section -->
+      <div id="Contact">
+        <a href="http://get.theapp.co/e36e">App Image</a>
+        <a href="mailto:info@tpomchurch.com">Mail Image</a>
+        <a href="http://www.facebook.com/tpomchurch">FaceBook Image</a>
+        <a href="http://www.instagram.com/tpomchurch">Instagram Image</a>
+        <a href="https://www.google.com/maps/place/The+Pentecostals+of+Murfreesboro/@35.869838,-86.357356,17z/data=!4m2!3m1!1s0x0:0x48222acf48a037cb?hl=en">Google Map Image</a>
+        <p>
+          The Pentecostals of Murfreesboro -
+          1800 New Lascassas Pk - Murfreesboro, TN 37130<br>
+          <a href="mailto:info@tpomchurch.com">Info@tpomchurch.com</a> -
+          (615) 893-5906 -
+          <a href="http://tpomchurch.com/engage/spanish">Hablamos Espa&#241;ol</a>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
